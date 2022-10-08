@@ -1,0 +1,78 @@
+.calc-container {
+    background-color: #ffffff;
+    max-width: fit-content;
+    margin: 0 auto;
+    padding: 1rem 2.5rem;
+    border-radius: 1rem;
+}
+.cancle-btn {
+    background-color: #404659;
+    color: #fff;
+    padding: 1.6rem 1.6rem;
+    border-radius: 50%;
+    border: none;
+    font-size: 1rem;
+    cursor: pointer;
+}
+.result {
+    background-color: #000;
+    color: #ffffff;
+    border-radius: 1rem;
+   
+}
+.input-fild {
+    background-color: #f484a3;
+    width: 260px;
+    height: 55px;
+    margin-left: .5rem;
+    border-radius: .3rem;
+    color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-weight: bolder;
+}
+
+.output-ans {
+    font-size: 1.5rem;
+    padding: .5rem 1.5rem;
+    border-radius: .2rem;
+
+}
+
+.operator-btn {
+    background-color: #6e65f2;
+    color: #fff;
+    width: 70px;
+    height: 60px;
+    border-radius: .3rem;
+    border: none;
+    font-size: 1.5rem;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.btn-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 1rem 0;
+}
+
+.submit-opetator {
+    width: 100%;
+}
+.submition {
+    background-color: #f484a3;
+    color: #fff;
+    width: 100%;
+    height: 60px;
+    border-radius: .3rem;
+    border: none;
+    font-size: 2rem;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
