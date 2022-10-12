@@ -84,8 +84,7 @@ const Calculator = () => {
           clickHandler={handleOperator}
         />
         <div className="input-fild">
-          <span>{operand ? operand : "0"}</span>
-          <span>=</span>
+          <span>{operand ? operand : "0"} =</span>
           <span className="output-ans">{answer}</span>
         </div>
       </div>
@@ -94,7 +93,7 @@ const Calculator = () => {
         <Button btnNum={8} value="8" clickHandler={handleOperand} />
         <Button btnNum={9} value="9" clickHandler={handleOperand} />
         <Button
-          btnNum="/"
+          btnNum="÷"
           className="operator-btn"
           clickHandler={handleOperator}
           value="/"
@@ -123,7 +122,7 @@ const Calculator = () => {
         />
       </div>
       <div className="btn-wrapper">
-        <Button btnNum={0} clickHandler={handleOperator} value="0" />
+        <Button btnNum={0} clickHandler={handleOperand} value="0" />
         <Button
           btnNum="."
           className="operator-btn"
